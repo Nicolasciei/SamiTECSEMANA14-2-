@@ -1,0 +1,288 @@
+body{
+    background-color:#5db3c2;
+}
+
+img{
+    width: 100%;
+    height: 450px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(109, 184, 174);
+    background-color: #7a7974;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+.menuprincipal{
+    float: left;
+}
+
+nav{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+}
+
+nav li a:hover{
+    background-color: #CCC8B4;
+}
+
+nav li ul{
+    position: absolute;
+    min-width: 140px;
+    display: none;
+}
+
+nav li:hover >ul{
+    display: block;
+}
+
+h2{
+    color: rgb(122, 104, 104);
+    width: 650px;
+    margin: auto;
+    height: auto;}
+
+    section h3{
+        margin: 30px;
+        margin-top: auto;
+        background-color: #58bec2;
+        border-radius: 10px 0;
+    }
+
+    audio{
+        margin: 20px;
+        margin-top: auto;
+    }
+
+    iframe{
+        margin: 20px;
+        margin-top: auto;
+    }
+    video{
+        margin: 30px;
+        margin-top: auto;
+    }
+
+/*laptops*/
+    .banner2{
+
+        width: 100%;
+    
+        height: 350px;
+    
+        animation-name: abanner;
+    
+        animation-duration: 8s;
+    
+        animation-iteration-count: infinite;
+    
+        animation-timing-function:linear;
+    
+        animation-direction: alternate;
+    
+        background-size: 100% 100%;
+    
+        position: relative;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+    }
+
+
+
+    @keyframes abanner{
+
+        0%, 33%{
+            background-image: url(/img/laptops.jpg);
+        }
+
+    
+
+        33%, 66%{
+            background-image: url(/img/budgetlaptops.avif);
+        }
+
+
+        66%, 100%{
+            background-image: url(/img/Mejores-Laptops-2017.jpg);
+        }
+
+
+
+    }
+    /*laptops*/
+.capa{
+    
+        top: 0px;
+    
+        left: 0px;
+    
+        width: 100%;
+    
+        height: 350px;
+    
+        position: absolute;
+    
+        background: rgba(0, 0, 0, 0)
+    
+    
+
+}
+/*celulares*/
+.banner3{
+
+    width: 100%;
+
+    height: 350px;
+
+    animation-name: abanner3;
+
+    animation-duration: 8s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function:linear;
+
+    animation-direction: alternate;
+
+    background-size: 100% 100%;
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/*celulares*/
+
+@keyframes abanner3{
+
+    0%, 33%{
+        background-image: url(/img/tiposdecelulares.jpeg);
+    }
+
+
+
+    33%, 66%{
+        background-image: url(/img/todosloscelulares.jpeg);
+    }
+
+
+    66%, 100%{
+        background-image: url(/img/promocionescel.jpg);
+    }
+
+
+
+}
+.capa3{
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 100%;
+
+    height: 350px;
+
+    position: absolute;
+
+    background: rgba(0, 0, 0, 0)
+
+
+
+}
+
+.banner4{
+
+    width: 100%;
+
+    height: 350px;
+
+    animation-name: abanner4;
+
+    animation-duration: 8s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function:linear;
+
+    animation-direction: alternate;
+
+    background-size: 100% 100%;
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/*televisores*/
+
+@keyframes abanner4{
+
+    0%, 33%{
+        background-image: url(/img/televisor.jpg);
+    }
+
+
+
+    33%, 66%{
+        background-image: url(/img/televisores.webp);
+    }
+
+
+    66%, 100%{
+        background-image: url(/img/bannerde\ televisor.webp);
+    }
+
+
+
+}
+.capa4{
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 100%;
+
+    height: 350px;
+
+    position: absolute;
+
+    background: rgba(0, 0, 0, 0)
+
+
+
+}
+ 
+    
+
+        
+    
